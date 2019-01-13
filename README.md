@@ -27,7 +27,7 @@ Future implementation may also modify core aspects of the Lightnet architecture 
 This program is still in early development and still needs to be optimized for a broader audience.  Please let me know if there are any issues that pop up (or instructions are unclear) and I will do my best to address them!
 
 
-## Core Features:
+## Core Features
 - Automated ROI selection for quick analysis of fluroescence images
 - Automatic organization of output data into logical structures
 - Advanced configuration through as single external text file so that multiple users can safely use the plugin across multiple experiements
@@ -49,7 +49,7 @@ The machine learning aspect of the main program requires that you have already t
 For the main program, set debug_mode to True in order to see useful outputs as you learn how to use the program.  
 To run the main program, open the Jupyter notebook Anisotropy and navigate to the cell that says "Start Here".  In the next cell, modify the paths to your config.txt file and the path to your data.  The program will load the parameters from your config.txt file and store them in the Parameters instance of the ImagingParameters class.  This will be the main class for your experiment and will hold references to all of the experimental variables as well as the final panda dataframes. Running the next cell will analyze your images for you and store panda dataframes containing your organized data.  The cells after that contain a module to output your data to excel as well as some organizational tools, but they are still works in progress.
 
-## The config.txt file
+### The config.txt file
 The config.txt file will contain all of the important parameters for your experiment.  Most of the parameters will not change experiment to experiment, but it is important to make sure that they are set up properly for your particular setup. In particular, check that the following are correct for you:
 - suffix (the suffix for your data files.  If it is an ome file, be sure to include that part of it (ex. ome.tif)
 - root_dir_same_treatment: set to true if you want the results from multiple folders to be pooled together.  Alternatively, set to false if you want the 
