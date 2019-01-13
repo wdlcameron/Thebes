@@ -58,4 +58,4 @@ Advanced configuration will be handled through the config.txt file.  Documentati
 
 
 ## Status
-Early stage of development.  The first iteration of the pipeline is complete but it is not user friendly.  
+Early stage of development.  The first iteration of the pipeline is complete but it is not user friendly.  As the project develops, the jupyter notebook segmented into individual python scripts and will be replaced by a demo notebook to teach users how to use it.  A GUI is also in the works.  
