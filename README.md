@@ -51,10 +51,10 @@ To run the main program, open the Jupyter notebook Anisotropy and navigate to th
 
 ### The config.txt file
 The config.txt file will contain all of the important parameters for your experiment.  Most of the parameters will not change experiment to experiment, but it is important to make sure that they are set up properly for your particular setup. In particular, check that the following are correct for you:
-- suffix (the suffix for your data files.  If it is an ome file, be sure to include that part of it (ex. ome.tif)
+- suffix: the suffix for your data files.  If it is an ome file, be sure to include that part of it (ex. ome.tif)
 - root_dir_same_treatment: set to true if you want the results from multiple folders to be pooled together.  Alternatively, set to false if you want the 
-- machine_learning_mode = set to false if you want to play around with the program without training the weights.
-- image_type_array = The plugin will currently only process images of the types "Anisotropy" and "Intensity", but this will change in the future
+- machine_learning_mode: set to false if you want to play around with the program without training the weights.  If set to true, make sure you also have the network settings set correctly
+- image_type_array: The plugin will currently only process images of the types "Anisotropy" and "Intensity", but this may change in the future.  If you are processing Anisotropy images, make sure you also set the corresponsing Anisotropy Attrubutes in the config file
 
 ## Advanced Configuration
 Advanced configuration will be handled through the config.txt file.  Documentation will become available as the project develops.
