@@ -12,8 +12,8 @@ Network training is being developped from a fork of Lightnet
 
 ## Table of Contents
 - [Overview](#overview)
-- [Warnings] (#warnings)
-- [Core Features] (#core-features)
+- [Warnings](#warnings)
+- [Core Features](#core-features)
 - [Quick Start](#quick-start)
 - [Status](#status)
 
