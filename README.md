@@ -2,7 +2,7 @@
 An approach to automatically segment fluorescence images as well as to extract and organize useful readouts beyond intensity
 
 ## Acknowledgements:
-Network training is being developped from a fork of Lightnet
+Network training is being developed from a fork of Lightnet
 <p align = "center">
   <a href="https://eavise.gitlab.io/lightnet/">
 <img src="https://eavise.gitlab.io/lightnet/_static/lightnet.svg" alt "Lightnet Logo" width="144" height="144"> 
