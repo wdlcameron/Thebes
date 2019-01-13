@@ -12,6 +12,8 @@ Network training is being developped from a fork of Lightnet
 
 ## Table of Contents
 - [Overview](#overview)
+- [Warnings] (#warnings)
+- [Core Features] (#core-features)
 - [Quick Start](#quick-start)
 - [Status](#status)
 
@@ -21,8 +23,11 @@ This is an attempt to simplify the process of training, testing and creating tra
 
 Future implementation may also modify core aspects of the Lightnet architecture (ex. updated it to YOLO3, etc.)
 
+## Warnings
+This program is still in early development and still needs to be optimized for a broader audience.  Please let me know if there are any issues that pop up (or instructions are unclear) and I will do my best to address them!
 
-### Core Features:
+
+## Core Features:
 - Automated ROI selection for quick analysis of fluroescence images
 - Automatic organization of output data into logical structures
 - Advanced configuration through as single external text file so that multiple users can safely use the plugin across multiple experiements
@@ -36,8 +41,6 @@ For the training folder:
 - Automatic creation of PASCAL-VOC labels from imageJ selections that are ready to be used for training
 - Preparation of the labels for training using a slightly modified training script from the lightnet module.
 
-## Warnings
-This program is still in early development and still needs to be optimized for a broader audience.  Please let me know if there are any issues that pop up (or instructions are unclear) and I will do my best to address them!
 
 
 ## Quick Start
