@@ -1,0 +1,14 @@
+numerical_aperture = 1.4
+index_of_refraction = 1.53
+magnification = 63
+gFactor = 1.0
+channel_array = [3,3,1]
+image_type_array = ["Anisotropy","Intensity","Brightfield"]
+channel_thresholds = [500, 500, 500]
+same_cells = True
+max_filter_region = 40
+max_threshold =  800
+root_dir_same_treatment = True
+suffix = ome.tif
+machine_learning_mode = True
+debug_mode = True
