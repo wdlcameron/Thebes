@@ -28,6 +28,7 @@ This program is still in early development and still needs to be optimized for a
 
 
 ## Core Features
+![core_features](docs/Features.png)
 - Automated ROI selection for quick analysis of fluroescence images
 - Automatic organization of output data into logical structures
 - Advanced configuration through as single external text file so that multiple users can safely use the plugin across multiple experiements
