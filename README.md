@@ -57,6 +57,13 @@ The config.txt file will contain all of the important parameters for your experi
 - machine_learning_mode: set to false if you want to play around with the program without training the weights.  If set to true, make sure you also have the network settings set correctly
 - image_type_array: The plugin will currently only process images of the types "Anisotropy" and "Intensity", but this may change in the future.  If you are processing Anisotropy images, make sure you also set the corresponsing Anisotropy Attrubutes in the config file
 
+
+### The GUI
+![Image_of_GUI](docs/GUI.png)
+Data analysed in the main program can be explored using the accompanying GUI.  Data can be filtered or split into subpopulations based on any of the output parameters.  Excel export of this modified data will be added at a later date
+
+
+
 ## Advanced Configuration
 Advanced configuration will be handled through the config.txt file.  Documentation will become available as the project develops.
 
