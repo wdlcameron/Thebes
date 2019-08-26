@@ -1,3 +1,5 @@
+Note: Thebes has been restructured and this readme needs to be redone!
+
 # Thebes
 An approach to automatically segment fluorescence images as well as to extract and organize useful readouts beyond intensity
 
